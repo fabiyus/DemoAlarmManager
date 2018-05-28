@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:text="Instructions: There will be 2 dices. Both dices will randomly generate a number. Enter the total bill and number of people during the event. Shake the device to generate the number, and guess the sum of the two dices. The player that guess the correct answer would not have to pay for his or her bill. The bill is then split among the losers. Have fun!"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</LinearLayout>
